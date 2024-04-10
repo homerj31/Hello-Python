@@ -2,25 +2,25 @@
 
 ### Variables ###
 
-my_string_variable = "My String variable"
-print(my_string_variable)
+MY_STRING_VARIABLE = "My String variable"
+print(MY_STRING_VARIABLE)
 
-my_int_variable = 5
-print(my_int_variable)
+MY_INT_VARIABLE = 5
+print(MY_INT_VARIABLE)
 
-my_int_to_str_variable = str(my_int_variable)
-print(my_int_to_str_variable)
-print(type(my_int_to_str_variable))
+MY_INT_TO_STR_VARIABLE = str(MY_INT_VARIABLE)
+print(MY_INT_TO_STR_VARIABLE)
+print(type(MY_INT_TO_STR_VARIABLE))
 
-my_bool_variable = False
-print(my_bool_variable)
+MY_BOOL_VARIABLE = False
+print(MY_BOOL_VARIABLE)
 
 # Concatenación de variables en un print
-print(my_string_variable, my_int_to_str_variable, my_bool_variable)
-print("Este es el valor de:", my_bool_variable)
+print(MY_STRING_VARIABLE, MY_INT_TO_STR_VARIABLE, MY_BOOL_VARIABLE)
+print("Este es el valor de:", MY_BOOL_VARIABLE)
 
 # Algunas funciones del sistema
-print(len(my_string_variable))
+print(len(MY_STRING_VARIABLE))
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
@@ -34,14 +34,14 @@ print(name)
 print(age)
 
 # Cambiamos su tipo
-name = 35
-age = "Brais"
+NAME = 35
+AGE = "Brais"
 print(name)
 print(age)
 
 # ¿Forzamos el tipo?
-address: str = "Mi dirección"
-address = True
-address = 5
-address = 1.2
-print(type(address))
+ADDRESS: str = "Mi dirección"
+ADDRESS = True
+ADDRESS = 5
+ADDRESS = 1.2
+print(type(ADDRESS))
