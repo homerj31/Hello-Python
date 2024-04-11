@@ -20,8 +20,8 @@ print("Hola " + str(5))
 print("Hola " * 5)
 print("Hola " * (2 ** 3))
 
-my_float = 2.5 * 2
-print("Hola " * int(my_float))
+MY_FLOAT = 2.5 * 2
+print("Hola " * int(MY_FLOAT))
 
 ### Operadores Comparativos ###
 

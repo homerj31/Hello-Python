@@ -2,21 +2,21 @@
 
 ### Strings ###
 
-my_string = "Mi String"
-my_other_string = 'Mi otro String'
+MY_STRING = "Mi String"
+MY_OTHER_STRING = 'Mi otro String'
 
-print(len(my_string))
-print(len(my_other_string))
-print(my_string + " " + my_other_string)
+print(len(MY_STRING))
+print(len(MY_OTHER_STRING))
+print(MY_STRING + " " + MY_OTHER_STRING)
 
-my_new_line_string = "Este es un String\ncon salto de línea"
-print(my_new_line_string)
+MY_NEW_LINE_STRING = "Este es un String\ncon salto de línea"
+print(MY_NEW_LINE_STRING)
 
-my_tab_string = "\tEste es un String con tabulación"
-print(my_tab_string)
+MY_TAB_STRING = "\tEste es un String con tabulación"
+print(MY_TAB_STRING)
 
-my_scape_string = "\\tEste es un String \\n escapado"
-print(my_scape_string)
+MY_SCAPE_STRING = "\\tEste es un String \\n escapado"
+print(MY_TAB_STRING)
 
 # Formateo
 
@@ -28,38 +28,38 @@ print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaqueado de caracteres
 
-language = "python"
-a, b, c, d, e, f = language
-print(a)
-print(e)
+LANGUAGE = "python"
+A, B, C, D, E, F = LANGUAGE
+print(A)
+print(E)
 
 # División
 
-language_slice = language[1:3]
-print(language_slice)
+LANGUAGE_SLICE = LANGUAGE[1:3]
+print(LANGUAGE_SLICE)
 
-language_slice = language[1:]
-print(language_slice)
+LANGUAGE_SLICE = LANGUAGE[1:]
+print(LANGUAGE_SLICE)
 
-language_slice = language[-2]
-print(language_slice)
+LANGUAGE_SLICE = LANGUAGE[-2]
+print(LANGUAGE_SLICE)
 
-language_slice = language[0:6:2]
-print(language_slice)
+LANGUAGE_SLICE = LANGUAGE[0:6:2]
+print(LANGUAGE_SLICE)
 
 # Reverse
 
-reversed_language = language[::-1]
-print(reversed_language)
+REVERSED_LANGUAGE = LANGUAGE[::-1]
+print(REVERSED_LANGUAGE)
 
 # Funciones del lenguaje
 
-print(language.capitalize())
-print(language.upper())
-print(language.count("t"))
-print(language.isnumeric())
+print(LANGUAGE.capitalize())
+print(LANGUAGE.upper())
+print(LANGUAGE.count("t"))
+print(LANGUAGE.isnumeric())
 print("1".isnumeric())
-print(language.lower())
-print(language.lower().isupper())
-print(language.startswith("Py"))
+print(LANGUAGE.lower())
+print(LANGUAGE.lower().isupper())
+print(LANGUAGE.startswith("Py"))
 print("Py" == "py")  # No es lo mismo
