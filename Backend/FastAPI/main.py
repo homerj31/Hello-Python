@@ -10,3 +10,4 @@ async def root():
 async def url():
     return {"url" : "www.marca.es"}
 
+#para arrancar el server uvicorn.exe main:app --reload
